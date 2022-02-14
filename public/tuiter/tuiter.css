@@ -19,9 +19,12 @@
 
 .wd-explore-setting {
     color: rgb(29, 161, 242);
-    padding-left: 3.5rem;
+    /* padding-left: 5rem; */
     font-size: xx-large;
     text-decoration: none;
+    float: right;
+    padding-right: 16px;
+    padding-top: 12px;
 }
 
 .wd-menu-option {
@@ -43,7 +46,7 @@
 }
 
 .wd-suggestion-box {
-    padding: 13px 16px;
+    padding: 13px 16px 13px 0px;
 }
 
 .wd-suggestions {
