@@ -97,8 +97,10 @@
     height: 13px;
 }
 
+
 .wd-suggestion-author-logo {
-    width: 18px;
+    width: 17px;
+    padding-right: 3px;
     height: 17px;
 }
 
