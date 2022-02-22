@@ -6,7 +6,25 @@
 }
 
 
+.wd-search-bar {
+    width: 80%;
+    color: black;
+    border-radius: 1.625rem;
+    padding: 0.7rem 3.5rem 0.7rem 2.5rem;
+    font-size: 1rem;
+    background: white;
+}
 
+
+.wd-explore-setting {
+    color: white;
+    /* padding-left: 5rem; */
+    font-size: xx-large;
+    text-decoration: none;
+    float: right;
+    padding-right: 16px;
+    padding-top: 12px;
+}
 
 .wd-menu-option {
     font-size: 15px;

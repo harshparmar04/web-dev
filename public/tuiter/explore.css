@@ -1,20 +1,81 @@
-.wd-sidebar-text {
-    text-decoration: none;
-    color: black;
+.wd-list-group-cust .list-group-item {
+    background-color: black;
+    color: #b8b8bd;
 }
 
-.wd-search-bar {
+.wd-who-to-follow {
+    border-radius: 20px;
+}
+
+.wd-who-to-follow .list-group-item {
+    background-color: #28282c;
+    color: white;
+}
+
+.wd-list-group-cust .list-group-item.active {
+    border-color: transparent;
+    color: white !important;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: gray;
+}
+
+
+.nav-tabs {
+    border-bottom: 10px solid rgb(110, 118, 125);
+}
+
+.nav-tabs .nav-link{
+    color: gray !important;
+    border: none;
+    border: 0px transparent  !important;
+}
+
+.nav-link.active,
+.nav-link:hover{
+    background-color: black !important;
+    border-bottom: 5px solid #1e9bf0 !important;
+    color: white !important;
+
+}
+
+
+/*.wd-search-bar {
     width: 100%;
     color: black;
     border-radius: 1.625rem;
     padding: 0.7rem 3.5rem 0.7rem 2.5rem;
     font-size: 1rem;
-    background: white url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 4px center;
+    color: white;
+    border: black;
+    background: #28282c url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 4px center;
+}*/
+
+.wd-search {
+    width: 100%;
+    background-color: #28282c;
+    color: white;
+    border: black;
+    padding: 0.5rem 0.5rem 0.5rem 35px;
+    border-radius: 2rem;
+
 }
 
+.wd-search-icon {
+    position: absolute;
+    height: 11px;
+    width: 15px;
+    padding-top: 2px;
+    margin-left: 11px;
+    line-height: 35px !important;
+    color: white;
+}
 
 .wd-setting {
-    color: #0d6efd;
+    color: white;
 }
 
 .wd-carousel-caption {
@@ -25,12 +86,38 @@
     color: #fff;
 }
 
-.wd-who-to-follow-suggestions {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
 .wd-who-to-follow-image {
     width: 4rem;
 }
+
+.wd-post-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+}
+
+.wd-center-border.row {
+    padding: 0px;
+}
+
+.btn-primary.wd-tuit-btn {
+    color: white;
+    background-color: #1e9bf0;
+    border-radius: 15px;
+    border-color: #1e9bf0;
+}
+
+.btn-primary.rounded-pill.wd-follow-btn {
+    background-color: white;
+    color: black;
+    border: white;
+}
+
+.wd-center-border {
+    border-right: 0.15rem solid rgb(110, 118, 125);
+    border-left: 0.15rem solid rgb(110, 118, 125);
+}
+
+
+
