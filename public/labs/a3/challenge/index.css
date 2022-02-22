@@ -4,6 +4,12 @@
     transform: rotate(90deg);
 }
 
+.rotate-paragraph-reverse {
+    width: 250px;
+    height: 250px;
+    transform: rotate(-180deg);
+}
+
 .rotate-list {
     transform: rotate(12deg);
     width: 100px;
@@ -99,7 +105,7 @@
 .gradients-positioned-example {
     background:
             radial-gradient(at top left, blue, red);
-    width: 250px;
+    width: 500px;
     height: 250px;
     color: white;
 }
@@ -181,28 +187,27 @@
 }
 
 .flex-box {
-    border: 4px black solid ;
-    margin: 12px;
-    padding: 12px;
-    border: groove;
+    border: 5px gray solid;
+    margin: 10px;
+    padding: 10px;
 }
 
 .flex-box-1 {
-    width: 40px;
-    height: 50px;
-    border: dashed;
+     background-color: darkorange;
+   /* width: 40px;
+    height: 60px;*/
 }
 
 .flex-box-2 {
-    width: 50px;
-    height: 70px;
-    border-style: double;
+    background-color: indigo;
+    /*width: 40px;
+    height: 40px;*/
 }
 
 .flex-box-3 {
-    width: 70px;
-    height: 40px;
-    border-style: dotted;
+   background-color: midnightblue;
+    /*width: 90px;*/
+    /*height: 60px;*/
 }
 
 .flex-justify-start {
@@ -261,7 +266,6 @@
     display: flex;
     border: 4px black solid;
 }
-
 @media (min-width: 0px) and (max-width: 500px) {
     body {
         background-color: blue;
