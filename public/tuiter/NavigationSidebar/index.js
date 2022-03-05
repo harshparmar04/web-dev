@@ -6,13 +6,13 @@ const NavigationSidebar = (active) => {
             </a>
             <a class="list-group-item list-group-item-action ${
         active === "home" ? "active" : ""
-    }" href="#">
+    }" href="../HomeScreen/index.html">
                 <i class="fa fa-home"></i>
                 <span class="d-none d-xl-inline-block">Home</span>
             </a>
-            <a class="list-group-item list-group-item-action active ${
+            <a class="list-group-item list-group-item-action ${
         active === "explore" ? "active" : ""
-    }" href="#">
+    }" href="../ExploreScreen/explore.html">
                 <i class="fa fa-hashtag"></i>
                 <span class="d-none d-xl-inline-block ">Explore</span>
             </a>

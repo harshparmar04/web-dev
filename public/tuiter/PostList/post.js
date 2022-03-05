@@ -10,7 +10,8 @@ export default [
         note: "From training to launch to landing, this all access docuseries rides with with the inspiration4 crewon the first all civilian orbital space mission",
         comments: "4.2k",
         likes: "37.5k",
-        retuits: "3.5k"
+        retuits: "3.5k",
+        link: "netflx.com"
     },
     {
         userName : "New York Post",
@@ -23,6 +24,7 @@ export default [
         note: "",
         comments: "965",
         likes: "4k",
-        retuits: "2.4k"
+        retuits: "2.4k",
+        link: ""
     }
 ]

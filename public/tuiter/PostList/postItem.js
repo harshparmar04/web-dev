@@ -1,17 +1,18 @@
 
 const postItem = (post) => {
     return (`
-        <li class="wd-post-item">
+        <div class="wd-post-item">
             <img src="${post.userImage}" class="wd-post-avatar">
             <div class="wd-post-post">
                 <div class="wd-post-metadata">
-                    <div class="wd-post-author-name">
+                    <div class="wd-post-author-name pe-1">
                         ${post.userName}
                     </div>
-                    <div class="wd-post-author-handle">
+                    <i class="fa fa-check-circle mt-1 pe-1"></i>
+                    <div class="wd-post-author-handle text-muted">
                         ${post.handle}
                     </div>
-                    <div class="wd-post-timestamp">
+                    <div class="wd-post-timestamp text-muted">
                         &nbsp;${post.time}
                     </div>
                 </div class="wd-post-metadata">
@@ -22,14 +23,20 @@ const postItem = (post) => {
                     <div class="wd-post-preview-image">
                         <img class="wd-post-preview-image" src="${post.image}">
                     </div>
-                    <div class="wd-post-preview-thumbnail">
-                        <div class="wd-preview-thumbnail-title">
+                    ${post.previewTitle !== '' ? ` <div class="wd-post-preview-thumbnail p-2">
+                        <div class="wd-preview-thumbnail-title ">
                             ${post.previewTitle}
                         </div>
-                        <div class="wd-preview-thumbnail-text">
+                        <div class="wd-preview-thumbnail-text text-muted">
+                            
                             ${post.note}
                         </div>
-                    </div>
+                        <div class="wd-preview-thumbnail-text text-muted">
+                            <i class="fa fa-link"></i>
+                            ${post.link}
+                        </div>
+                    </div>`:""}
+                   
                 </div>
 
                 <div class="wd-post-action-options">
@@ -49,20 +56,20 @@ const postItem = (post) => {
 
                     <div>
                         <a href="#" class="wd-action-hyperlink">
-                            <i class="far fa-heart fas wd-action-icon-like"></i>
-                            <span class="wd-like-action-text">${post.likes}</span>
+                            <i class="far fa-heart wd-action-icon"></i>
+                            <span class="wd-action-text">${post.likes}</span>
                         </a>
                     </div>
 
                     <div>
-                        <a href="#" class="wd-action-hyperlink">
-                            <i class="fa-solid fa-arrow-up-from-bracket wd-action-icon "></i>
+                        <a href="#" ">
+                            <i class="fas fa-upload wd-action-icon"></i>
                         </a>
                     </div>
                 </div>
             </div>
-        </li>
+        </div>
     `);
-};
+}
 
 export default postItem;

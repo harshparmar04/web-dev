@@ -1,6 +1,5 @@
 
 .wd-post-box {
-    background: black;
     border: rgb(47, 51, 54) 1px solid;
 }
 
@@ -28,7 +27,7 @@
     display: flex;
     flex-direction: row;
     padding-top: 12px;
-    border-top: rgb(47, 51, 54) 1px solid;
+    border-bottom: 1px solid;
     padding-left: 12px;
 
 }
@@ -104,6 +103,7 @@
     font-weight: bold;
     width: 504px;
     color: white;
+    border-top: 1px solid gray;
 }
 
 .wd-preview-thumbnail-text {
@@ -122,21 +122,14 @@
 
 .wd-post-action-options .wd-action-icon {
     padding-right: 12px;
-    color: lightgray;
+    color: gray;
 }
 
-.wd-post-action-options .wd-action-icon-like {
-    padding-right: 12px;
-    color: red;
-}
 
 .wd-post-action-options .wd-action-text {
-    color: lightgray;
+    color: gray;
 }
 
-.wd-post-action-options .wd-like-action-text {
-    color: red;
-}
 
 .wd-post-action-options .wd-action-hyperlink {
     text-decoration: none;

@@ -1,6 +1,6 @@
 
 const PostSummaryItem = (post) => {
-  return (`<li class="list-group-item d-flex justify-content-between align-items-center bg-black text-white">
+  return (`<li class="list-group-item d-flex justify-content-between align-items-center text-white">
                         <div>
                             <div>
                                 <div class="text-muted">${post.topic}</div>
