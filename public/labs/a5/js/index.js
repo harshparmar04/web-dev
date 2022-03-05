@@ -111,6 +111,9 @@ console.log('Array index and length')
 const length1 = numberArray1.length;
 const index1 = numberArray1.indexOf(3);
 
+console.log(length1);
+console.log(index1);
+
 console.log('Add and remove data to arrays')
 // adding new items
 numberArray1.push(6);
@@ -257,7 +260,7 @@ const init = () => {
     }
     hideBtn.click(hideHandler);
     showBtn.click(showHandler);
-    
+
 }
 $(init);
 
