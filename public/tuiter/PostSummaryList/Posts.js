@@ -13,8 +13,8 @@ export default [{
     tweets: '123K',
 }, {
     topic: 'Web Development',
-    userName: '',
-    title: 'jQuery',
+    userName: 'jQuery',
+    title: '',
     time: 'last week',
     image: '../images/jqueryLogo.png',
     tweets: '122K',
