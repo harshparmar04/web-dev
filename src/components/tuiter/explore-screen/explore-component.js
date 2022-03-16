@@ -12,25 +12,25 @@ const ExploreComponent = () => {
                     </div>
 
                     <div className="col-2 col-xxl-2 pt-2 d-flex justify-content-end">
-                         <a href="#"> <i className="fa fa-cog fa-2x wd-setting"></i></a>
+                         <a href="www.google.com"> <i className="fa fa-cog fa-2x wd-setting"></i></a>
                     </div>    
                  </div>
                <div className="nav nav-tabs pt-2">
                    <ul className="nav">
                           <li className="nav-item">
-                            <a className="nav-link active" href="#">For you</a>
+                            <a className="nav-link active" href="www.google.com">For you</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Trending</a>
+                            <a className="nav-link" href="www.google.com">Trending</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">News</a>
+                            <a className="nav-link" href="www.google.com">News</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Sports</a>
+                            <a className="nav-link" href="www.google.com">Sports</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Entertainment</a>
+                            <a className="nav-link" href="www.google.com">Entertainment</a>
                         </li>   
                    </ul>
                 </div>

@@ -37,7 +37,7 @@ const PostItem = ({
                   }) => {
     return (
         <div className="wd-post-item">
-            <img src={post.userImage} className="wd-post-avatar"/>
+            <img src={post.userImage} className="wd-post-avatar" alt=""/>
             <div className="wd-post-post">
                 <div className="d-flex flex-row">
                     <div className="wd-post-author-name pe-1">
@@ -56,7 +56,7 @@ const PostItem = ({
                     </div>
                     <div className="wd-post-preview">
                         <div className="wd-post-preview-image">
-                            <img className="wd-post-preview-image" src={post.image}/>
+                            <img className="wd-post-preview-image" src={post.image} alt=""/>
                         </div>
                         {post.previewTitle !== '' && <PreviewTitle post={post}/>}
 
@@ -64,28 +64,28 @@ const PostItem = ({
 
                     <div className="wd-post-action-options">
                         <div>
-                            <a href="#" className="wd-action-hyperlink">
+                            <a href="www.google.com" className="wd-action-hyperlink">
                                 <i className="far fa-comment wd-action-icon"></i>
                                 <span className="wd-action-text">{post.comments}</span>
                             </a>
                         </div>
 
                         <div>
-                            <a href="#" className="wd-action-hyperlink">
+                            <a href="www.google.com" className="wd-action-hyperlink">
                                 <i className="fas fa-retweet wd-action-icon"></i>
                                 <span className="wd-action-text">{post.retuits}</span>
                             </a>
                         </div>
 
                         <div>
-                            <a href="#" className="wd-action-hyperlink">
+                            <a href="www.google.com" className="wd-action-hyperlink">
                                 <i className="far fa-heart wd-action-icon"></i>
                                 <span className="wd-action-text">{post.likes}</span>
                             </a>
                         </div>
 
                         <div>
-                            <a href="#">
+                            <a href="www.google.com">
                                 <i className=" fas fa-upload wd-action-icon"></i>
                             </a>
                         </div>
