@@ -1,0 +1,253 @@
+.wd-explore-main-container {
+    background-color: black;
+    border: rgb(47, 51, 54);
+    padding-left: 16px;
+    border-radius: 10px;
+}
+
+
+.wd-search-bar {
+    width: 80%;
+    color: black;
+    border-radius: 1.625rem;
+    padding: 0.7rem 3.5rem 0.7rem 2.5rem;
+    font-size: 1rem;
+    background: white;
+}
+
+
+.wd-explore-setting {
+    color: white;
+    /* padding-left: 5rem; */
+    font-size: xx-large;
+    text-decoration: none;
+    float: right;
+    padding-right: 16px;
+    padding-top: 12px;
+}
+
+.wd-menu-option {
+    font-size: 15px;
+    padding: 16px;
+    display: inline-block;
+}
+
+.wd-menu-option-unselected {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.wd-menu-option-selected {
+    text-decoration: none;
+    color: rgb(29, 161, 242);
+    border-bottom: solid rgb(29, 161, 242) 3px;
+    padding-bottom: 9px;
+}
+
+.wd-suggestion-box {
+    padding: 13px 16px 13px 0px;
+}
+
+.wd-suggestions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px darkgray solid;
+    cursor: pointer;
+}
+
+.wd-suggestions-data {
+    padding: 10px 16px;
+    flex-direction: column;
+    display: flex;
+}
+
+.wd-suggestions .wd-suggestions-image {
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    min-height: 100px;
+    border-radius: 12px;
+}
+
+.wd-suggestion-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 2px 0px 3px 0px;
+}
+
+.wd-suggestion-topic-tuit-count {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-suggestion-author {
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    flex-direction: row;
+    display: flex;
+}
+
+
+.wd-suggestion-author-verified {
+    width: 16px;
+    height: 13px;
+}
+
+
+.wd-suggestion-author-logo {
+    width: 17px;
+    padding-right: 3px;
+    height: 17px;
+}
+
+.wd-suggestion-timeStamp {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+
+.wd-bookmarks-box {
+    background: black;
+    border: rgb(47, 51, 54) 1px solid;
+}
+
+.wd-bookmark-heading-box {
+    padding-left: 16px;
+}
+
+.wd-bookmark-heading-box-title {
+    padding-top: 12px;
+    color: white;
+    font-size: 20px;
+}
+
+.wd-bookmark-user-handle {
+    color: lightgray;
+    font-size: 13px;
+    padding-bottom: 12px;
+}
+
+.wd-bookmark-bottom-border {
+    border-bottom: rgb(47, 51, 54) 1px solid;
+}
+
+.wd-bookmark-item {
+    display: flex;
+    flex-direction: row;
+    padding-top: 12px;
+    border-top: rgb(47, 51, 54) 1px solid;
+    padding-left: 12px;
+
+}
+
+.wd-bookmark-avatar {
+    border-radius: 24px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-bookmark-post {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+}
+
+.wd-bookmark-metadata {
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-bookmark-author-name {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.wd-bookmark-author-handle {
+    color: lightgray;
+    font-size: 15px;
+}
+
+.wd-bookmark-author-handle::after {
+    content: "\000020•\000020";
+}
+
+
+.wd-bookmark-timestamp {
+    color: lightgray;
+    font-size: 15px;
+}
+
+.wd-bookmark-content {
+    color: white;
+    font-size: 15px;
+    max-width: 506px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.wd-bookmark-preview {
+    border: rgb(47, 51, 54) 1px solid;
+    border-radius: 10px;
+}
+
+.wd-bookmark-preview-image {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.wd-preview-thumbnail {
+    height: 264px;
+    width: 504px;
+}
+
+.wd-preview-thumbnail-title {
+    padding: 12px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 504px;
+    color: white;
+}
+
+.wd-preview-thumbnail-text {
+    padding: 12px 0px 12px 0px;
+    font-size: 15px;
+    width: 504px;
+    color: lightgray;
+}
+
+.wd-bookmark-action-options {
+    padding: 12px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wd-bookmark-action-options .wd-action-icon {
+    padding-right: 12px;
+    color: lightgray;
+}
+
+.wd-bookmark-action-options .wd-action-icon-like {
+    padding-right: 12px;
+    color: red;
+}
+
+.wd-bookmark-action-options .wd-action-text {
+    color: lightgray;
+}
+
+.wd-bookmark-action-options .wd-like-action-text {
+    color: red;
+}
+
+.wd-bookmark-action-options .wd-action-hyperlink {
+    text-decoration: none;
+}
