@@ -6,7 +6,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
     return (
         <>
             <div className="list-group">
-                <Link to="/" className="list-group-item list-group-item-action">
+                <Link to="/tuiter/home" className="list-group-item list-group-item-action">
                     <i className="fab fa-twitter"></i>
                 </Link>
 
@@ -23,37 +23,37 @@ const NavigationSidebar = ({active = 'explore'}) => {
                 </Link>
                 <a className={`list-group-item list-group-item-action ${
                     active === " notifications" ? " active" : ""
-                }`} href="www.google.com">
+                }`} >
                     <i className="fa fa-bell pe-1"></i>
                     <span className="d-none d-xl-inline-block ">Notifications</span>
                 </a>
                 <a className={`list-group-item list-group-item-action ${
                     active === " messages" ? " active" : ""
-                }`} href="www.google.com">
+                }`} >
                     <i className="fa fa-envelope pe-1"></i>
                     <span className="d-none d-xl-inline-block ">Messages</span>
                 </a>
                 <a className={`list-group-item list-group-item-action ${
                     active === " bookmarks" ? " active" : ""
-                }`} href="www.google.com">
+                }`} >
                     <i className="fa fa-bookmark pe-1"></i>
                     <span className="d-none d-xl-inline-block ">Bookmarks</span>
                 </a>
                 <a className={`list-group-item list-group-item-action ${
                     active === " lists" ? " active" : ""
-                }`} href="www.google.com">
+                }`} >
                     <i className="fas fa-list pe-1"></i>
                     <span className="d-none d-xl-inline-block ">Lists</span>
                 </a>
                 <a className={`list-group-item list-group-item-action ${
                     active === " profile" ? " active" : ""
-                }`} href="www.google.com">
+                }`} >
                     <i className="fa fa-user pe-1"></i>
                     <span className="d-none d-xl-inline-block ">Profile</span>
                 </a>
                 <a className={`list-group-item list-group-item-action ${
                     active === " more" ? " active" : ""
-                }`} href="www.google.com">
+                }`} >
                     <i className="fas fa-minus-circle pe-1"></i>
                     <span className="d-none d-xl-inline-block ">More</span>
                 </a>
