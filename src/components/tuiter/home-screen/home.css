@@ -1,0 +1,136 @@
+
+.wd-post-box {
+    border: rgb(47, 51, 54) 1px solid;
+}
+
+.wd-post-heading-box {
+    padding-left: 16px;
+}
+
+.wd-post-heading-box-title {
+    padding-top: 12px;
+    color: white;
+    font-size: 20px;
+}
+
+.wd-post-user-handle {
+    color: lightgray;
+    font-size: 13px;
+    padding-bottom: 12px;
+}
+
+.wd-post-bottom-border {
+    border-bottom: rgb(47, 51, 54) 1px solid;
+}
+
+.wd-post-item {
+    display: flex;
+    flex-direction: row;
+    padding-top: 12px;
+    border-bottom: 1px solid gray;
+    padding-left: 12px;
+
+}
+
+.wd-post-avatar {
+    border-radius: 24px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-post-post {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+}
+
+.wd-post-metadata {
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-post-author-name {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.wd-post-author-handle {
+    color: lightgray;
+    font-size: 15px;
+}
+
+.wd-post-author-handle::after {
+    content: "\000020•\000020";
+}
+
+
+.wd-post-timestamp {
+    color: lightgray;
+    font-size: 15px;
+}
+
+.wd-post-content {
+    color: white;
+    font-size: 15px;
+    max-width: 506px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.wd-post-preview {
+    border: rgb(47, 51, 54) 1px solid;
+    border-radius: 10px;
+}
+
+.wd-post-preview-image {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.wd-preview-thumbnail {
+    height: 264px;
+    width: 504px;
+}
+
+.wd-preview-thumbnail-title {
+    padding: 12px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 504px;
+    color: white;
+    border-top: 1px solid gray;
+}
+
+.wd-preview-thumbnail-text {
+    padding: 12px 0px 12px 0px;
+    font-size: 15px;
+    width: 504px;
+    color: lightgray;
+}
+
+.wd-post-action-options {
+    padding: 12px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wd-post-action-options .wd-action-icon {
+    padding-right: 12px;
+    color: gray;
+}
+
+
+.wd-post-action-options .wd-action-text {
+    color: gray;
+}
+
+
+.wd-post-action-options .wd-action-hyperlink {
+    text-decoration: none;
+}
