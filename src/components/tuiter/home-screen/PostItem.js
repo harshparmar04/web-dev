@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css"
 
-const previewTitle = ({post}) => {
+const PreviewTitle = ({post}) => {
     return (
         <div className="wd-post-preview-thumbnail p-2">
             <div className="wd-preview-thumbnail-title ">
@@ -58,7 +58,7 @@ const PostItem = ({
                         <div className="wd-post-preview-image">
                             <img className="wd-post-preview-image" src={post.image}/>
                         </div>
-                        {post.previewTitle !== '' ? previewTitle(post) : ""}
+                        {post.previewTitle !== '' && <PreviewTitle post={post}/>}
 
                     </div>
 
