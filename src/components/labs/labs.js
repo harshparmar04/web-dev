@@ -28,6 +28,7 @@ const Labs = () => {
                 <li><a href="labs/a5/index.html">Assignment 5</a></li>
                 <li><a href="tuiter/navigation.html">Tuiter</a></li>
             </ul>
+
         </>
     )
 };
