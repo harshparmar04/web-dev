@@ -23,44 +23,44 @@ const NavigationSidebar = ({active = 'explore'}) => {
                 </Link>
                 <a className={`list-group-item list-group-item-action ${
                     active === " notifications" ? " active" : ""
-                }`} >
+                }`} href="" alt="">
                     <i className="fa fa-bell pe-1"></i>
                     <span className="d-none d-xl-inline-block ">Notifications</span>
                 </a>
                 <a className={`list-group-item list-group-item-action ${
                     active === " messages" ? " active" : ""
-                }`} >
+                }`} href="" alt="">
                     <i className="fa fa-envelope pe-1"></i>
                     <span className="d-none d-xl-inline-block ">Messages</span>
                 </a>
                 <a className={`list-group-item list-group-item-action ${
                     active === " bookmarks" ? " active" : ""
-                }`} >
+                }`} href="" alt="">
                     <i className="fa fa-bookmark pe-1"></i>
                     <span className="d-none d-xl-inline-block ">Bookmarks</span>
                 </a>
                 <a className={`list-group-item list-group-item-action ${
                     active === " lists" ? " active" : ""
-                }`} >
+                }`} href="" alt="">
                     <i className="fas fa-list pe-1"></i>
                     <span className="d-none d-xl-inline-block ">Lists</span>
                 </a>
                 <a className={`list-group-item list-group-item-action ${
                     active === " profile" ? " active" : ""
-                }`} >
+                }`} href="" alt="">
                     <i className="fa fa-user pe-1"></i>
                     <span className="d-none d-xl-inline-block ">Profile</span>
                 </a>
                 <a className={`list-group-item list-group-item-action ${
                     active === " more" ? " active" : ""
-                }`} >
+                }`} href="" alt="">
                     <i className="fas fa-minus-circle pe-1"></i>
                     <span className="d-none d-xl-inline-block ">More</span>
                 </a>
             </div>
             <div className="d-grid mt-2">
                 <a href="tweet.html"
-                   className="btn btn-primary btn-block rounded-pill">
+                   className="btn btn-primary btn-block rounded-pill" alt="">
                     Tweet</a>
             </div>
         </>
