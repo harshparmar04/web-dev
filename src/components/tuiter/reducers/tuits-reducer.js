@@ -36,7 +36,7 @@ const tuitReducer =
                     stats: {
                         retuits: 111,
                         likes: 222,
-                        replies: 333
+                        comments: 333
                     }
                 }
                 return [

@@ -4,7 +4,7 @@ import Labs from "./components/labs/labs";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import HomeScreen from "./components/tuiter/home-screen/HomeScreen";
 import ExploreScreen from "./components/tuiter/explore-screen/ExploreScreen";
-import './vendors/bootstrap/css/bootstrap.min.css'
+import './vendors/bootstrap/css/bootstrap-cyborg.min.css'
 import Tuiter from "./components/tuiter";
 
 function App() {

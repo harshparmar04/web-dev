@@ -28,7 +28,7 @@ const WhatsHappening = () => {
                       <i className="far fa-image me-3"></i>
                     </a>
                     <a href="#">
-                      <i className="far fa-analytics me-3"></i>
+                      <i className="fa fa-chart-line me-3"></i>
                     </a>
                     <a href="#">
                       <i className="far fa-smile me-3"></i>
