@@ -14,7 +14,7 @@ const WhatsHappening = () => {
     return (<div className="d-flex flex-row">
             <img
                 className="rounded-circle wd-logo-image m-3"
-                src="/tuiter/images/rocket.jpeg"
+                src="/tuiter/images/avatar2.png"
                 alt="Image"
             />
             <div className="d-flex flex-column w-100 mb-3">
