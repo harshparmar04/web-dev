@@ -4,6 +4,7 @@ import Classes from "./classes";
 import Styles from "./styles";
 import ConditionalOutput from "./conditional-output";
 import TodoList from "./todo/todoList";
+import ReduxExamples from "./redux-examples";
 
 const Labs = () => {
     return(
@@ -20,7 +21,7 @@ const Labs = () => {
             <Classes/>
             <h1>TODOs</h1>
             <TodoList/>
-            <h1>Non React.js Assignments</h1>
+            <h1>Non React.js Assignments/Labs</h1>
             <ul>
                 <li><a href="labs/a2/index.html">Assignment 2</a></li>
                 <li><a href="labs/a3/index.html">Assignment 3</a></li>
@@ -28,7 +29,7 @@ const Labs = () => {
                 <li><a href="labs/a5/index.html">Assignment 5</a></li>
                 <li><a href="tuiter/navigation.html">Tuiter</a></li>
             </ul>
-
+            <ReduxExamples/>
         </>
     )
 };

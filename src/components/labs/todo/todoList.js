@@ -5,7 +5,11 @@ const TodoList = () => {
         <ul>
             {
                 todos.map(todo => {
-                    return(<TodoItem todo={todo}/>);
+                    return(
+                        <li key={todo.title}>
+                            <TodoItem todo={todo}/>
+                        </li>
+                        );
                 })
             }
         </ul>

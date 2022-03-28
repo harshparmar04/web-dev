@@ -4,23 +4,30 @@ import Labs from "./components/labs/labs";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import HomeScreen from "./components/tuiter/home-screen/HomeScreen";
 import ExploreScreen from "./components/tuiter/explore-screen/ExploreScreen";
-import './vendors/bootstrap/css/bootstrap-cyborg.min.css'
+import './vendors/bootstrap/css/bootstrap.min.css'
+import Tuiter from "./components/tuiter";
 
 function App() {
     return (<BrowserRouter>
             <div className="container">
                 <Routes>
-                    <Route path="/tuiter/home" element={<HomeScreen/>}/>
-                    <Route path="/tuiter/explore" element={<ExploreScreen/>}/>
-                    <Route path="/hello"
-                           exact={true}
-                           element={<HelloWorld/>}/>
-                    <Route path="/"
-                           exact={true}
-                           element={<Labs/>}/>
-                    <Route path="/tuiter"
-                           exact={true}
-                           element={<HomeScreen/>}/>
+                    <Route path="/">
+                        <Route path="labs"
+                               element={<Labs/>}/>
+                        <Route path="hello"
+                               element={<HelloWorld/>}/>
+                        <Route path="tuiter"
+                               element={<Tuiter/>}>
+                            <Route index
+                                   element={<HomeScreen/>}/>
+                            <Route path = "home"
+                                   element={<HomeScreen/>}/>
+                            <Route path="explore"
+                                   element={<ExploreScreen />}/>
+                            {/*<Route path="notifications"
+                                   element={<NotificationScreen/>}/>*/}
+                        </Route>
+                    </Route>
                 </Routes>
             </div>
         </BrowserRouter>);
