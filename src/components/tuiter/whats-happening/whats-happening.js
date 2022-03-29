@@ -23,18 +23,11 @@ const WhatsHappening = () => {
                 <hr/>
                 <div className="d-flex flex-row justify-content-between">
                     <span>
-                    <a href="#">
-                      <i className="far fa-image me-3"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-chart-line me-3"></i>
-                    </a>
-                    <a href="#">
-                      <i className="far fa-smile me-3"></i>
-                    </a>
-                    <a href="#">
-                      <i className="far fa-calendar me-3"></i>
-                    </a>
+
+                      <i className="far fa-image me-3 text-primary"></i>
+                      <i className="fa fa-chart-line me-3 text-primary"></i>
+                      <i className="far fa-smile me-3 text-primary"></i>
+                      <i className="far fa-calendar me-3 text-primary"></i>
                   </span>
                     <button className="btn btn-primary btn-block rounded-pill" onClick={tuitClickHandler}>
                         Tuit
