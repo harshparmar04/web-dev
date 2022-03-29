@@ -7,8 +7,9 @@ import whoReducer from "./reducers/who-reducer";
 import WhoToFollowList from "./WhoToFollowList";
 import tuitReducer from "./reducers/tuits-reducer";
 import "./tuiter.css";
+import ProfileReducer from "./reducers/profile-reducer";
 
-const combinedReducers = combineReducers({who: whoReducer,tuits: tuitReducer});
+const combinedReducers = combineReducers({who: whoReducer,tuits: tuitReducer, profile: ProfileReducer});
 const store = createStore(combinedReducers);
 
 const Tuiter = () => {

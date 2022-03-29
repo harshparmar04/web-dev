@@ -1,0 +1,17 @@
+.wd-save {
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    width: 80px;
+}
+
+.wd-cancel-edit {
+    height: 15px;
+    width: 15px;
+    margin-top: 10px;
+}
+
+.wd-text-box {
+    border-width: 19px;
+    border-color: white;
+}

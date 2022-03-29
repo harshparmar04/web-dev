@@ -41,6 +41,16 @@ const Todos = () => {
     return(
         <>
             <h3>Todos</h3>
+            <li className="list-group-item" >
+                <input
+                    onChange={todoChangeHandler}
+                    value={todo.do}
+                    className="form-control"
+                />
+                <button onClick={createTodoClickHandler} className="btn btn-primary">
+                    Create New Todo
+                </button>
+            </li>
             <ul className="list-group">
                 {todos.map((todo) => (
                     <li className="list-group-item" key={todo._id}>
@@ -62,16 +72,7 @@ const Todos = () => {
                     </li>
                 ))}
             </ul>
-            <li className="list-group-item" >
-                <input
-                    onChange={todoChangeHandler}
-                    value={todo.do}
-                    className="form-control"
-                />
-                <button onClick={createTodoClickHandler} className="btn btn-primary">
-                    Create New Todo
-                </button>
-            </li>
+
         </>
     );
 };

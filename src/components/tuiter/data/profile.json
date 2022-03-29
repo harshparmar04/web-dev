@@ -1,0 +1,18 @@
+{
+  "firstName": "Harsh",
+  "lastName": "Parmar",
+  "handle": "am_harshparmar",
+  "bannerPicture": "/tuiter/images/background.jpeg",
+  "profilePicture": "/tuiter/images/avatar2.png",
+  "bio": "Full-Stack Software Engineer, Masters of Science in Computer Science, Ex-JP Morgan",
+  "tuits" : "12,902",
+  "likes" : "9870",
+  "website": "https://www.linkedin.com/in/harshparmar04/",
+  "location": "Boston, MA",
+  "dateOfBirth": "November 21, 1995",
+  "dateJoined": "April, 2009",
+  "followingCount": 5000,
+  "followersCount": 6000
+}
+
+

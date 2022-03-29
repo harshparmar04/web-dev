@@ -26,6 +26,8 @@ const TuitListItem = ({tuit}) => {
                         <span className="fw-bold text-white">{tuit.postedBy.username}</span>
                         {tuit.verified && <i className="ms-1 me-1 fas fa-badge-check"></i>}
                         <span className="ms-1 text-muted">@{tuit.handle}</span>
+                        <span className="ms-1 text-muted"> • </span>
+                        <span className="ms-1 text-muted">{tuit.time} </span>
                     </div>
 
                     <i onClick={() => deleteTuit(tuit)}

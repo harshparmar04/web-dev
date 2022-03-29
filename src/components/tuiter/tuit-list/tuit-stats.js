@@ -14,11 +14,11 @@ const TuitStats = ({tuit}) => {
     return (
         <div className="d-flex flex-row">
             <span className="col">
-            <i className="far fa-comment"></i>
+            <i className="far fa-comment me-1"></i>
                 <span>{tuit.stats.comments}</span>
             </span>
             <span className="col">
-                <i className="fas fa-retweet"></i>
+                <i className="fas fa-retweet me-1"></i>
                 {tuit.stats.retuits}
                 </span>
             <span onClick={likeTuit} className="col">
