@@ -1,7 +1,9 @@
 import React from "react";
 import ExploreComponent from "./explore-component";
 
-const ExploreScreen = (exploreComponent = <><ExploreComponent/></>) => {
-    return exploreComponent;
+const ExploreScreen = () => {
+    return(
+        <ExploreComponent/>
+    );
 };
 export default ExploreScreen;
