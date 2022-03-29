@@ -23,7 +23,6 @@ const WhatsHappening = () => {
                 <hr/>
                 <div className="d-flex flex-row justify-content-between">
                     <span>
-
                       <i className="far fa-image me-3 text-primary"></i>
                       <i className="fa fa-chart-line me-3 text-primary"></i>
                       <i className="far fa-smile me-3 text-primary"></i>
