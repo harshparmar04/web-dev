@@ -16,7 +16,7 @@ const EditScreen = () => {
       const value = event.target.value;
       if (field === 'name') {
           const names = value.split(" ");
-          return applyChanges({...changes, ["firstName"] : names[0], ["lastName"] : names[1]})
+          return applyChanges({...changes, ['firstName'] : names[0], ['lastName'] : names[1]});
       }
       applyChanges({...changes, [field] : value});
     };
