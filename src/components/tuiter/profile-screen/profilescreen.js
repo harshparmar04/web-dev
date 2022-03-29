@@ -24,10 +24,10 @@ const ProfileScreen = () => {
             </div>
 
 
-            <img className="row" src={profile.bannerPicture} alt="Banner Image"/>
+            <img className="row" src={profile.bannerPicture} />
             <div>
                 <div>
-                    <img className="wd-profile-image" src={profile.profilePicture} alt="Profile Image"/>
+                    <img className="wd-profile-image" src={profile.profilePicture}/>
                     <div className="wd-edit-profile">
                         <Link to="/tuiter/profile/edit" className="btn btn-primary wd-edit-button">Edit Profile</Link>
                     </div>

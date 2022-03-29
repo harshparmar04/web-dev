@@ -44,11 +44,11 @@ const EditScreen = () => {
                 </span>
                     <button className="btn btn-primary wd-save fw-bold" onClick={onSaveClick}>Save</button>
             </div>
-            <img className="row" src={profile.bannerPicture} alt="Banner Image"/>
+            <img className="row" src={profile.bannerPicture} />
 
             <div>
                 <div className="row wd-edit-profile-row ">
-                    <img className="wd-profile-image" src={profile.profilePicture} alt="Profile Image"/>
+                    <img className="wd-profile-image" src={profile.profilePicture} />
                 </div>
                 <div className="d-flex flex-column mt-3">
                     <label htmlFor="name" className="text-muted">Name</label>

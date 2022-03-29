@@ -15,7 +15,6 @@ const WhatsHappening = () => {
             <img
                 className="rounded-circle wd-logo-image m-3"
                 src="/tuiter/images/avatar2.png"
-                alt="Image"
             />
             <div className="d-flex flex-column w-100 mb-3">
                 <textarea placeholder="What's happening?" className=" wd-whats-happening-box" value={whatsHappening}

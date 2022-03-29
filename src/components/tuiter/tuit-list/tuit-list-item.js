@@ -16,7 +16,6 @@ const TuitListItem = ({tuit}) => {
                 <img
                     className="rounded-circle wd-logo-image m-3"
                     src={tuit["logo-image"]}
-                    alt="Image"
                 />
             </div>
 
