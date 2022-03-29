@@ -1,0 +1,29 @@
+.wd-profile-image{
+    height: 9rem;
+    width: 9rem;
+    border-radius: 100%;
+    margin-left: 1.5rem;
+    margin-top: -4rem;
+    top: 22rem;
+}
+
+.wd-edit-profile{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0.1rem;
+    padding-right: 1.5rem;
+    text-decoration: none;
+}
+
+.wd-edit-button {
+    color: white;
+    background-color: #222222;
+    border-radius: 25px;
+    border-color: white;
+}
+
+
+
+.wd-bio {
+    color: #cdcaca;
+}

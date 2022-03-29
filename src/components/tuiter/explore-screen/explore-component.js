@@ -4,7 +4,7 @@ import './explore-screen.css'
 
 const ExploreComponent = () => {
     return (
-            <div className="pt-2">
+            <div className="pt-2 wd-middle-section-background">
                 <div className="row">
                     <div className="col-10 col-xxl-10 ">
                     <i className="fa fa-search wd-search-icon"></i>
