@@ -2,17 +2,22 @@ import React from "react";
 import {useSelector} from "react-redux";
 import "./profilescreen.css"
 import {Link} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 const ProfileScreen = () => {
-
+    const navigate = useNavigate();
 
     const stateProfile = (state) => state.profile;
     const profile = useSelector(stateProfile);
 
+    const onBackClick = () => {
+      navigate("/tuiter/home");
+    };
+
     return (
         <div className="d-flex flex-column">
             <div className="d-flex flex-row">
-                <i className="fas fa-arrow-left mt-2"></i>
+                <i onClick={onBackClick} className="fas fa-arrow-left mt-2"></i>
                 <div>
                     <div className="row fw-bolder text-white h6 ms-3 mb-0">
                         <span >{profile.firstName} {profile.lastName}</span>

@@ -3,7 +3,7 @@ import {useSelector} from "react-redux";
 import "./edit-profile.css"
 import {Link} from "react-router-dom";
 import {useDispatch} from "react-redux";
-import { useNavigate } from 'react-router';
+import {useNavigate} from "react-router-dom";
 
 const EditScreen = () => {
     const stateProfile = (state) => state.profile;
@@ -24,7 +24,6 @@ const EditScreen = () => {
     const dispatch = useDispatch();
 
     const onSaveClick = () => {
-        console.log("invoking on save" + changes);
       dispatch({
           type: "save-edit",
           data: changes

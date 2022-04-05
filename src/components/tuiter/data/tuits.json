@@ -19,7 +19,8 @@
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes" : 123
     }
   },
   {
@@ -43,7 +44,8 @@
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes" : 130
     }
   },
   {
@@ -65,7 +67,8 @@
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes" : 200
     }
   },
   {
@@ -86,7 +89,8 @@
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes" : 78
     }
   },
   {
@@ -107,7 +111,8 @@
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 34,
+      "dislikes" : 12
     }
   }
 ]

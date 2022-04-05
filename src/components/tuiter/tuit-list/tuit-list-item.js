@@ -1,15 +1,16 @@
 import {useDispatch} from "react-redux";
 import TuitStats from "./tuit-stats";
+import {deleteTuit} from "../actions/tuits-actions";
 
 
 const TuitListItem = ({tuit}) => {
     const dispatch = useDispatch();
-    const deleteTuit = () => {
+    /*const deleteTuit = () => {
         dispatch({
             type: "delete-tuit",
             id: tuit._id
         })
-    }
+    }*/
     return (<>
         <div className="d-flex flex-row">
             <div className="mt-2">
@@ -29,7 +30,7 @@ const TuitListItem = ({tuit}) => {
                         <span className="ms-1 text-muted">{tuit.time} </span>
                     </div>
 
-                    <i onClick={() => deleteTuit(tuit)}
+                    <i onClick={() => deleteTuit(dispatch, tuit)}
                        className="fa fa-times me-1"></i>
                 </div>
                 <div>
